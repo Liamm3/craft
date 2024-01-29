@@ -1,0 +1,14 @@
+columnSuffix: irffskkf
+contentColumnType: boolean
+fieldGroup: b6c6ba52-0ae9-4cbf-b647-98433d95e92f
+handle: navIsActive
+instructions: null
+name: 'In Hauptnavigation anzeigen'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de-DE
+name: default-craft4
+primary: true
+siteGroup: c173033a-ab54-482f-897e-d9d4d07735ea
+sortOrder: 1

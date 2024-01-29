@@ -1,0 +1,101 @@
+fieldLayouts:
+  5d7b80c6-5dce-4585-8a1e-2290cbb318c8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0525195b-8a79-486b-b382-9e10a5ba5657
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7decdda3-55eb-47ba-bd4f-662ffb284baa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 09f5df2f-4a71-47c6-9450-28d6f353708e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f5ed6b69-03ad-4f6d-92ae-277d08d0abd9
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e24f651-a6fb-4945-8fde-8205f4190753
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3e637086-4247-4adf-9d8d-ab34fd34c10a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 15efa83a-3789-4665-9ed2-5c330fa33132
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: cf6f702b-6fb5-4d4c-9cc1-230f02ef7450
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 91edad81-3cb8-4110-a466-4283435f154d
+            userCondition: null
+            warning: null
+            width: 50
+        name: Navigation
+        uid: 74fb9a01-f85c-4b86-979c-6540998e7b8f
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Standard
+section: a4a825c8-8c3a-4d07-b887-b95e350e84e1
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
