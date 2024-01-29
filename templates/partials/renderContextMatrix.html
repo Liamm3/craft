@@ -1,0 +1,3 @@
+{% for matrix in entry.matrixInhalt.all() %}
+    {% include '/modules/content/'~ matrix.type %}
+{% endfor %}

@@ -1,0 +1,76 @@
+<div class="nav-wrapper nav-desktop">
+    <ul class="nav-items level-1">
+        {% for page in craft.entries.section('inhalt').navIsActive(true).level(1).all() %}
+            {% set hasChildren = page.children | length > 0 %}
+            <li class="nav-item {{ hasChildren ? 'has-submenu' }}">
+                <span class="nav-link">
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                    {% if hasChildren %}
+                    <svg viewBox="0 0 24 24">
+                        <use href="#chevron_down" />
+                    </svg>
+                    {% endif %}
+                </span>
+                {% if hasChildren %}
+
+                    <div class="level-2">
+                        <ul>
+                            {% for page in page.children %}
+                                <li class="nav-item">
+                                    <!-- <span class="nav-link">
+                                        
+                                    </span> -->
+                                    <a href="{{ page.url }}">{{ page.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="nav-mobile">
+    <svg viewBox="0 0 48 48" id="toggle_nav">
+        <use href="#menu" />
+    </svg>
+
+    <div class="mobile-burger-menu hide">
+        <div class="mobile-search-container">
+            <form class="search-form" action="/search" id="searchForm">
+                {{ input('text', 'q', '', {
+                    placeholder: 'Suche',
+                    'aria-label': 'Suche'
+                }) }}
+                <button class="button green">
+                    <svg viewBox="0 0 24 24">
+                        <use href="#search" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+        {% for page in craft.entries.section('inhalt').navIsActive(true).level(1).all() %}
+            {% set hasChildren = page.children | length > 0 %}
+            
+            {% set navid = loop.index %}
+
+            <a class="{{ hasChildren ? 'nav-parent closed' }}" href="{{ page.url }}" data-navid="{{ navid }}">
+                {{ page.title }}
+                {% if hasChildren %}
+                    <svg viewBox="0 0 24 24">
+                        <use href="#chevron_down" />
+                    </svg>
+                {% endif %}
+            </a>
+
+            {% if hasChildren %}
+                <a class="mnav-child" href="{{ page.url }}" data-navid="{{ navid }}">Übersicht</a>
+                {% for child in page.children %}
+                    <a class="mnav-child" href="{{ child.url }}" data-navid="{{ navid }}">{{ child.title }}</a>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

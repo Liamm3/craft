@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+    <head>
+        {% if entry is defined %}
+            {% include "system/inc/seo.html" %}
+        {% else %}
+            <title>{{ siteName }} - {% block title %}{% endblock %}</title>
+        {% endif %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="/assets/css/global.css" />
+        <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        {% include "/system/inc/icons.html" %}
+        <div class="wrapper">
+            {% include "system/inc/header.html" %}
+            <main>
+                {% block content %}{% endblock %}
+            </main>
+            {% include "system/inc/footer.html" %}
+        </div>
+        <script lang="javascript" src="/assets/js/app.js"></script>
+    </body>
+</html>

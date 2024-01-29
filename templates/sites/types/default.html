@@ -1,0 +1,7 @@
+{% extends '_layout.html' %}
+
+{% block content %}
+    {% cache globally using key 'entry-content-'~entry.id %}
+        {% include '/partials/renderContextMatrix.html' %}
+    {% endcache %}
+{% endblock %}
