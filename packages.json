@@ -1,0 +1,8 @@
+{
+	"packages": {
+		"liamm3": {
+			"0.0.2": { @composer.json },
+			"0.0.1": { @composer.json },
+		}
+	}
+}
