@@ -1,5 +1,10 @@
 {
   "name": "liamm3/craft",
+  "description": "Craft CMS",
+  "keywords": ["template"],
+  "license": "0BSD",
+  "homepage": "https://craftcms.com/",
+  "type": "project",
   "require": {
     "craftcms/cms": "^4.4.0",
     "vlucas/phpdotenv": "^5.4.0"
@@ -25,8 +30,12 @@
     }
   },
   "scripts": {
-    "post-root-package-install": [
-      "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
+    "post-create-project-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\"",
+      "@php -r \"unlink('composer.json');\"",
+      "@php -r \"rename('composer.json.default', 'composer.json');\"",
+      "@composer dump-autoload -o",
+      "@php craft setup/welcome"
     ]
   }
 }
