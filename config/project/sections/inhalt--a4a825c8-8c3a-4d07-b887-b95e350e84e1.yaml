@@ -4,7 +4,7 @@ handle: inhalt
 name: Inhalt
 propagationMethod: all
 siteSettings:
-  328bbd2c-78c8-45d3-b9b1-9d5fe533f1c3:
+  328bbd2c-78c8-45d3-b9b1-9d5fe533f1c3: # craft-template
     enabledByDefault: true
     hasUrls: true
     template: sites/proxy.html

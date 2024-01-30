@@ -1,4 +1,4 @@
-field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3
+field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3 # Matrix Inhalt
 fieldLayouts:
   bb5926fe-8b3a-4925-a3fc-7ca24b4b1c98:
     tabs:
@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 93963033-9406-4baa-8f7c-005bb4a4b4fd
+            fieldUid: 93963033-9406-4baa-8f7c-005bb4a4b4fd # Hintergrundbild
             instructions: null
             label: null
             required: false
@@ -21,7 +21,7 @@ fieldLayouts:
         uid: 9251ad0f-3882-432e-a2f8-985d2b4f6be0
         userCondition: null
 fields:
-  93963033-9406-4baa-8f7c-005bb4a4b4fd:
+  93963033-9406-4baa-8f7c-005bb4a4b4fd: # Hintergrundbild
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -35,7 +35,7 @@ fields:
       allowUploads: true
       allowedKinds: null
       branchLimit: null
-      defaultUploadLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2'
+      defaultUploadLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2' # Assets
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
@@ -45,7 +45,7 @@ fields:
       restrictFiles: false
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
-      restrictedLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2'
+      restrictedLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2' # Assets
       restrictedLocationSubpath: null
       selectionLabel: null
       showSiteMenu: true

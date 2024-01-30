@@ -1,6 +1,6 @@
 columnSuffix: trvwjeyu
 contentColumnType: string(255)
-fieldGroup: b6c6ba52-0ae9-4cbf-b647-98433d95e92f
+fieldGroup: b6c6ba52-0ae9-4cbf-b647-98433d95e92f # Navigation
 handle: externerLink
 instructions: null
 name: 'Externer Link'

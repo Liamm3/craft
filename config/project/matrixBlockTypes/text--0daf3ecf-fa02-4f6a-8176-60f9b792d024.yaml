@@ -1,4 +1,4 @@
-field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3
+field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3 # Matrix Inhalt
 fieldLayouts:
   4f4a2bdd-488d-46f8-af09-38fb36804076:
     tabs:
@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: cc745822-7bdb-4017-9dcd-30ea5d884d12
+            fieldUid: cc745822-7bdb-4017-9dcd-30ea5d884d12 # Inhalt
             instructions: null
             label: null
             required: false
@@ -21,7 +21,7 @@ fieldLayouts:
         uid: 73e70267-a7e4-4512-907f-3c4c67d8ff9a
         userCondition: null
 fields:
-  cc745822-7bdb-4017-9dcd-30ea5d884d12:
+  cc745822-7bdb-4017-9dcd-30ea5d884d12: # Inhalt
     columnSuffix: xjazgumd
     contentColumnType: text
     fieldGroup: null

@@ -1,4 +1,4 @@
-field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3
+field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3 # Matrix Inhalt
 fieldLayouts:
   b1c9623e-bea3-4b44-bc5b-41b98eeaafa7:
     tabs:
@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 29ea1ef9-4359-4a8b-a395-16572e6defdb
+            fieldUid: 29ea1ef9-4359-4a8b-a395-16572e6defdb # Bild
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3a422a75-660f-4f73-90ea-9c84be555de2
+            fieldUid: 3a422a75-660f-4f73-90ea-9c84be555de2 # Überschrift
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 982c7486-8587-455b-9660-292b9d881619
+            fieldUid: 982c7486-8587-455b-9660-292b9d881619 # Text
             instructions: null
             label: null
             required: false
@@ -43,7 +43,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3f21f22a-4dca-4bd4-a332-f04b0b603cd5
+            fieldUid: 3f21f22a-4dca-4bd4-a332-f04b0b603cd5 # Link zum Eintrag
             instructions: null
             label: null
             required: false
@@ -57,7 +57,7 @@ fieldLayouts:
         uid: 389c5e26-a9a0-42a9-8ec2-87ee0ef1f7e9
         userCondition: null
 fields:
-  3a422a75-660f-4f73-90ea-9c84be555de2:
+  3a422a75-660f-4f73-90ea-9c84be555de2: # Überschrift
     columnSuffix: pqikkvqb
     contentColumnType: text
     fieldGroup: null
@@ -77,7 +77,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  3f21f22a-4dca-4bd4-a332-f04b0b603cd5:
+  3f21f22a-4dca-4bd4-a332-f04b0b603cd5: # Link zum Eintrag
     columnSuffix: yhcfbklx
     contentColumnType: string
     fieldGroup: null
@@ -101,7 +101,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  29ea1ef9-4359-4a8b-a395-16572e6defdb:
+  29ea1ef9-4359-4a8b-a395-16572e6defdb: # Bild
     columnSuffix: dormyfpo
     contentColumnType: string
     fieldGroup: null
@@ -115,7 +115,7 @@ fields:
       allowUploads: true
       allowedKinds: null
       branchLimit: null
-      defaultUploadLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2'
+      defaultUploadLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2' # Assets
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
@@ -125,7 +125,7 @@ fields:
       restrictFiles: false
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
-      restrictedLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2'
+      restrictedLocationSource: 'volume:bab85a0a-a745-4104-aaff-e53e48734ff2' # Assets
       restrictedLocationSubpath: null
       selectionLabel: null
       showSiteMenu: true
@@ -138,7 +138,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  982c7486-8587-455b-9660-292b9d881619:
+  982c7486-8587-455b-9660-292b9d881619: # Text
     columnSuffix: qmwdilzz
     contentColumnType: text
     fieldGroup: null

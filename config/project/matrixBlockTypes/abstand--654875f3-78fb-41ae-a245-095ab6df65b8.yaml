@@ -1,4 +1,4 @@
-field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3
+field: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3 # Matrix Inhalt
 fieldLayouts:
   3e43ac50-76f3-4fa5-a771-7b252bd34eea:
     tabs:
@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: b35860ec-5acb-4759-b2d6-cbf6e44b1a6c
+            fieldUid: b35860ec-5acb-4759-b2d6-cbf6e44b1a6c # Höhe
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 83d38b79-d5d7-4f67-b731-76b5de770cac
+            fieldUid: 83d38b79-d5d7-4f67-b731-76b5de770cac # Manueller Wert
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 32969fe3-afd1-4c5e-aca2-fda5b5276344
         userCondition: null
 fields:
-  83d38b79-d5d7-4f67-b731-76b5de770cac:
+  83d38b79-d5d7-4f67-b731-76b5de770cac: # Manueller Wert
     columnSuffix: zlayrdom
     contentColumnType: text
     fieldGroup: null
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  b35860ec-5acb-4759-b2d6-cbf6e44b1a6c:
+  b35860ec-5acb-4759-b2d6-cbf6e44b1a6c: # Höhe
     columnSuffix: pylditjh
     contentColumnType: string(6)
     fieldGroup: null

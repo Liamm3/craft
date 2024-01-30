@@ -1,8 +1,9 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: 'http://$PRIMARY_SITE_URL/'
+enabled: true
 handle: default
 hasUrls: true
 language: de-DE
-name: default-craft4
+name: craft-template
 primary: true
-siteGroup: c173033a-ab54-482f-897e-d9d4d07735ea
+siteGroup: c173033a-ab54-482f-897e-d9d4d07735ea # default-craft4
 sortOrder: 1

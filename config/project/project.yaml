@@ -1,4 +1,4 @@
-dateModified: 1705653957
+dateModified: 1706608450
 email:
   fromEmail: jt@craft-unit.de
   fromName: default-craft4
@@ -13,36 +13,37 @@ fs:
     url: '@asset_url'
 meta:
   __names__:
-    0daf3ecf-fa02-4f6a-8176-60f9b792d024: Text
-    3a422a75-660f-4f73-90ea-9c84be555de2: Überschrift
-    3e637086-4247-4adf-9d8d-ab34fd34c10a: 'Interner Link'
-    3f21f22a-4dca-4bd4-a332-f04b0b603cd5: 'Link zum Eintrag'
-    3ff75b84-f0d4-4363-8c05-52cdfa50768a: Inhalt
-    7ad5e3f7-4ed1-4f66-9cf2-43c93e63ea46: Hero
-    29ea1ef9-4359-4a8b-a395-16572e6defdb: Bild
-    83d38b79-d5d7-4f67-b731-76b5de770cac: 'Manueller Wert'
-    328bbd2c-78c8-45d3-b9b1-9d5fe533f1c3: default-craft4
-    982c7486-8587-455b-9660-292b9d881619: Text
-    654875f3-78fb-41ae-a245-095ab6df65b8: Abstand
-    93963033-9406-4baa-8f7c-005bb4a4b4fd: Hintergrundbild
-    a4a825c8-8c3a-4d07-b887-b95e350e84e1: Inhalt
-    a45e4a59-5b46-4e07-8da2-50ae5c3c9359: 'Text und Bild'
-    abe3e8a6-15fa-473f-ab86-6d4de53bb211: 'Zwei Spalten'
-    b6c6ba52-0ae9-4cbf-b647-98433d95e92f: Navigation
-    b8d32741-c90a-4d01-9ac8-9d0e73a56a8e: Standard
-    b35860ec-5acb-4759-b2d6-cbf6e44b1a6c: Höhe
-    bab85a0a-a745-4104-aaff-e53e48734ff2: Assets
-    bc87ba3c-f5b8-4763-94be-ba3cc6efa5f7: Common
-    c173033a-ab54-482f-897e-d9d4d07735ea: default-craft4
-    cc4af9bf-db03-458a-8a24-c3663077adb7: Überschrift
-    cc745822-7bdb-4017-9dcd-30ea5d884d12: Inhalt
-    cf6f702b-6fb5-4d4c-9cc1-230f02ef7450: 'Externer Link'
-    e9f5b456-bc45-4b14-a51a-a14a9ffc13e3: 'Matrix Inhalt'
-    f5ed6b69-03ad-4f6d-92ae-277d08d0abd9: 'In Hauptnavigation anzeigen'
+    0daf3ecf-fa02-4f6a-8176-60f9b792d024: Text # Text
+    3a422a75-660f-4f73-90ea-9c84be555de2: Überschrift # Überschrift
+    3e637086-4247-4adf-9d8d-ab34fd34c10a: 'Interner Link' # Interner Link
+    3f21f22a-4dca-4bd4-a332-f04b0b603cd5: 'Link zum Eintrag' # Link zum Eintrag
+    3ff75b84-f0d4-4363-8c05-52cdfa50768a: Inhalt # Inhalt
+    7ad5e3f7-4ed1-4f66-9cf2-43c93e63ea46: Hero # Hero
+    29ea1ef9-4359-4a8b-a395-16572e6defdb: Bild # Bild
+    83d38b79-d5d7-4f67-b731-76b5de770cac: 'Manueller Wert' # Manueller Wert
+    328bbd2c-78c8-45d3-b9b1-9d5fe533f1c3: craft-template # craft-template
+    982c7486-8587-455b-9660-292b9d881619: Text # Text
+    654875f3-78fb-41ae-a245-095ab6df65b8: Abstand # Abstand
+    93963033-9406-4baa-8f7c-005bb4a4b4fd: Hintergrundbild # Hintergrundbild
+    a4a825c8-8c3a-4d07-b887-b95e350e84e1: Inhalt # Inhalt
+    a45e4a59-5b46-4e07-8da2-50ae5c3c9359: 'Text und Bild' # Text und Bild
+    abe3e8a6-15fa-473f-ab86-6d4de53bb211: 'Zwei Spalten' # Zwei Spalten
+    b6c6ba52-0ae9-4cbf-b647-98433d95e92f: Navigation # Navigation
+    b8d32741-c90a-4d01-9ac8-9d0e73a56a8e: Standard # Standard
+    b35860ec-5acb-4759-b2d6-cbf6e44b1a6c: Höhe # Höhe
+    bab85a0a-a745-4104-aaff-e53e48734ff2: Assets # Assets
+    bc87ba3c-f5b8-4763-94be-ba3cc6efa5f7: Common # Common
+    c173033a-ab54-482f-897e-d9d4d07735ea: default-craft4 # default-craft4
+    cc4af9bf-db03-458a-8a24-c3663077adb7: Überschrift # Überschrift
+    cc745822-7bdb-4017-9dcd-30ea5d884d12: Inhalt # Inhalt
+    cf6f702b-6fb5-4d4c-9cc1-230f02ef7450: 'Externer Link' # Externer Link
+    e9f5b456-bc45-4b14-a51a-a14a9ffc13e3: 'Matrix Inhalt' # Matrix Inhalt
+    f5ed6b69-03ad-4f6d-92ae-277d08d0abd9: 'In Hauptnavigation anzeigen' # In Hauptnavigation anzeigen
 system:
   edition: solo
   live: true
-  name: default-craft4
+  name: craft-template
+  retryDuration: null
   schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:

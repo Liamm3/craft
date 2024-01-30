@@ -33,7 +33,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3
+            fieldUid: e9f5b456-bc45-4b14-a51a-a14a9ffc13e3 # Matrix Inhalt
             instructions: null
             label: null
             required: false
@@ -51,7 +51,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: f5ed6b69-03ad-4f6d-92ae-277d08d0abd9
+            fieldUid: f5ed6b69-03ad-4f6d-92ae-277d08d0abd9 # In Hauptnavigation anzeigen
             instructions: null
             label: null
             required: false
@@ -63,7 +63,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3e637086-4247-4adf-9d8d-ab34fd34c10a
+            fieldUid: 3e637086-4247-4adf-9d8d-ab34fd34c10a # Interner Link
             instructions: null
             label: null
             required: false
@@ -75,7 +75,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: cf6f702b-6fb5-4d4c-9cc1-230f02ef7450
+            fieldUid: cf6f702b-6fb5-4d4c-9cc1-230f02ef7450 # Externer Link
             instructions: null
             label: null
             required: false
@@ -91,7 +91,7 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Standard
-section: a4a825c8-8c3a-4d07-b887-b95e350e84e1
+section: a4a825c8-8c3a-4d07-b887-b95e350e84e1 # Inhalt
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
