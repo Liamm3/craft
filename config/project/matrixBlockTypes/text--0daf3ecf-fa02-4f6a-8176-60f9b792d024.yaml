@@ -43,4 +43,4 @@ fields:
     type: craft\fields\PlainText
 handle: text
 name: Text
-sortOrder: 3
+sortOrder: 1
