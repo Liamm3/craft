@@ -48,7 +48,7 @@ return [
         'runQueueAutomatically'              => App::env('RUN_QUEUE_AUTOMATICALLY'),
         'enableTemplateCaching'              => App::env('ENABLE_TEMPLATE_CACHING'),
         'disallowRobots'                     => App::env('DISALLOW_ROBOTS'),
-        'cpTrigger'                          => App::env('CP_TRIGGER'),
+        // 'cpTrigger'                          => App::env('CP_TRIGGER'),
         'testToEmailAddress'                 => App::env('TEST_TO_EMAIL') ?: null,
 
         'defaultSearchTermOptions' => [
