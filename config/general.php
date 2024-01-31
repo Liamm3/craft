@@ -60,12 +60,4 @@ return [
             '@web'     => getenv('PRIMARY_SITE_URL')
         ]
     ],
-
-    'dev' => [
-        'testToEmailAddress' => 'frank@craft-unit.de'
-    ],
-
-    'staging' => [
-        'testToEmailAddress' => 'frank@craft-unit.de'
-    ]
 ];
